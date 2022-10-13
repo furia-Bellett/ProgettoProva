@@ -32,6 +32,9 @@ namespace git4E
             
         }
 
+        //Button per la stampa
+        
+        
         private void stampa_bt_Click(object sender, RoutedEventArgs e)
         {
             stampa_lbl.Content = "Hello word.com";
