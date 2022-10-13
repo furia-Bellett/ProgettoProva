@@ -10,17 +10,19 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="25*"/>
             <RowDefinition Height="72*"/>
-            <RowDefinition Height="337*"/>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="267*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="29*"/>
             <ColumnDefinition Width="188*"/>
-            <ColumnDefinition Width="71*"/>
-            <ColumnDefinition Width="194*"/>
-            <ColumnDefinition Width="318*"/>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="204*"/>
+            <ColumnDefinition Width="362*"/>
         </Grid.ColumnDefinitions>
         <Label x:Name="stampa_lbl" Content="Label" Margin="10,10,10,10" Grid.Column="1" Grid.Row="1"/>
-        <Label x:Name="nome_lbl" Grid.Column="3" Content="Label" Grid.Row="1" Margin="38,23,37,23"/>
+        <Label x:Name="nome_lbl" Grid.Column="3" Content="Label" Grid.Row="1" Margin="10,10,10,10"/>
+        <Button x:Name="stampa_bt" Grid.Column="1" Content="Button" Margin="10,10,10,24" Grid.Row="2" Click="stampa_bt_Click"/>
 
     </Grid>
 </Window>

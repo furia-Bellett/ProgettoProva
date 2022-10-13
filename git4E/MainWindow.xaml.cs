@@ -29,10 +29,16 @@ namespace git4E
             InitializeComponent();
 
 
+            
+        }
+
+        private void stampa_bt_Click(object sender, RoutedEventArgs e)
+        {
             stampa_lbl.Content = "Hello word.com";
 
 
             nome_lbl.Content = "Belletti Lorenzo 4^E";
+
         }
     }
 }
